@@ -1426,7 +1426,7 @@ body.lock {
   position: relative;
   margin-right: 14px;
 }
-@media all and (max-width: 1250px) {
+/* @media all and (max-width: 1250px) {
   .production__btn {
     margin: 0px 0 0 20px;
   }
@@ -1440,22 +1440,17 @@ body.lock {
   .production__btn {
     margin: 50px 0 0 0;
   }
-}
+} */
+
 .order__wrapper {
-  padding: 270px 0 0;
-  flex-direction: column;
-  align-items: center;
+  padding: 370px 0 0;
 }
 @media all and (max-width: 750px) {
   .order__wrapper {
     padding: 250px 0 0;
   }
 }
-@media all and (max-width: 1240px) {
-  .order__wrapper {
-    padding: 370px 0 0;
-  }
-}
+
 
 .production__btn:hover::before {
   background: url(./../images/dropHover1.svg) no-repeat center;
@@ -2371,7 +2366,6 @@ body.lock {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 @media (min-width: 950px) {
   .request__input {
@@ -4398,14 +4392,10 @@ a > .production__phone {
 
 .order__wrapper {
   display: flex;
-  justify-content: space-around;
-  padding: 320px 0 36px;
-  flex-direction: row;
-}
-@media all and (max-width: 1100px) {
-  .order__wrapper {
-    flex-direction: column;
-  }
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 
 /* .request__wrapper{
