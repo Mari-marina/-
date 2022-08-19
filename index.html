@@ -267,7 +267,20 @@
                     name="submitted[name]"
                   />
                   <input
+                    type="text"
+                    class="request__input"
+                    placeholder="Город"
+                    name="submitted[name]"
+                  />
+                  <input
+                    type="text"
+                    class="request__input"
+                    placeholder="Email"
+                    name="submitted[name]"
+                  />
+                  <input
                     type="tel"
+                    id="tel"
                     class="request__input"
                     placeholder="Номер телефона"
                     name="submitted[phone]"
@@ -332,28 +345,28 @@
                     class="request__input"
                     placeholder="Город"
                     name="submitted[post_code]"
-                    value="заглушка город"
+                    
                   />
                   <input
                     type="text"
                     class="request__input"
                     placeholder="Компания"
                     name="submitted[name_of_the_company]"
-                    value="заглушка компания"
+                    
                   />
                   <input
                     type="text"
                     class="request__input"
-                    placeholder="Почта"
+                    placeholder="Email"
                     name="submitted[e_mail]"
-                    value="заглушка почта"
+                   
                   />
                   <input
                     type="text"
                     class="request__input"
                     placeholder="Колличество сотрудников"
                     name="submitted[topic]"
-                    value="заглушка Колличество сотрудников"
+                   
                   />
 
                   <!-- <div action="" class="request__form_second-mobile">
@@ -410,19 +423,19 @@
                   <p class="service__text">На следующий день по Москве и МО</p>
                 </div>
               </div>
-              <div class="service__wrap">
+              <section  class="service__wrap">
                 <img
                   src="./assets/images/icon-delivery.svg"
                   alt=""
                   class="service__img"
                 />
-                <div class="service__block">
+                <section class="service__block">
                   <h5 class="service__subtitle">Удобный сервис</h5>
                   <p class="service__text">
                     Подъем на этаж в квартиру или офис
                   </p>
-                </div>
-              </div>
+                </section>
+              </section >
             </div>
           </div>
         </section>
@@ -1003,9 +1016,7 @@
             </a>
           </h5>
           <p class="production__text_bottom">
-            Eden-открытая компания, мы гордимся своим качеством и готовы
-            показать вам весь цикл по производству идеально чистой питьевой
-            воды.
+            Eden-открытая компания, мы гордимся качеством своей продукции и готовы показать вам весь цикл по производству идеально чистой питьевой воды.
           </p>
           <!-- <form method="post" action="/ajax/get_quote_form/75612" class="production__form">
             <input
@@ -1184,6 +1195,8 @@
           centerPadding: "40px",
         });
       });
+     
+
     </script>
     <script type="text/javascript">
       let divs = document.getElementsByTagName("div"),
@@ -1221,5 +1234,6 @@
       document.querySelector("label.option").style.color = "#fff";
       document.querySelector("ul.tab").style.display = "none";
     </script>
+    <script type="text/javascript" src="https://unpkg.com/imask"></script>
   </body>
 </html>
