@@ -245,7 +245,7 @@
             <p class="request__text">Мы перезвоним вам в течение 10 минут</p>
             <!--тут форма drupal-->
             <div id="get-a-quote-form" class="whatever"></div>
-            <div class="request__wrapper" id="req">
+            <div class="request__wrapper" id="req" style="display: none;">
               <div class="mobile">
                 <div class="mobile__wrap">
                   <botton class="mobile__BTNtext clicked"
@@ -345,28 +345,24 @@
                     class="request__input"
                     placeholder="Город"
                     name="submitted[post_code]"
-                    
                   />
                   <input
                     type="text"
                     class="request__input"
                     placeholder="Компания"
                     name="submitted[name_of_the_company]"
-                    
                   />
                   <input
                     type="text"
                     class="request__input"
                     placeholder="Email"
                     name="submitted[e_mail]"
-                   
                   />
                   <input
                     type="text"
                     class="request__input"
                     placeholder="Колличество сотрудников"
                     name="submitted[topic]"
-                   
                   />
 
                   <!-- <div action="" class="request__form_second-mobile">
@@ -423,7 +419,7 @@
                   <p class="service__text">На следующий день по Москве и МО</p>
                 </div>
               </div>
-              <section  class="service__wrap">
+              <section class="service__wrap">
                 <img
                   src="./assets/images/icon-delivery.svg"
                   alt=""
@@ -435,7 +431,7 @@
                     Подъем на этаж в квартиру или офис
                   </p>
                 </section>
-              </section >
+              </section>
             </div>
           </div>
         </section>
@@ -1016,7 +1012,9 @@
             </a>
           </h5>
           <p class="production__text_bottom">
-            Eden-открытая компания, мы гордимся качеством своей продукции и готовы показать вам весь цикл по производству идеально чистой питьевой воды.
+            Eden-открытая компания, мы гордимся качеством своей продукции и
+            готовы показать вам весь цикл по производству идеально чистой
+            питьевой воды.
           </p>
           <!-- <form method="post" action="/ajax/get_quote_form/75612" class="production__form">
             <input
@@ -1195,8 +1193,6 @@
           centerPadding: "40px",
         });
       });
-     
-
     </script>
     <script type="text/javascript">
       let divs = document.getElementsByTagName("div"),

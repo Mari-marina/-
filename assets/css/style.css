@@ -1461,7 +1461,6 @@ body.lock {
   }
 }
 
-
 .production__btn:hover::before {
   background: url(./../images/dropHover1.svg) no-repeat center;
 }
@@ -2400,6 +2399,12 @@ body.lock {
     max-width: 360px;
     text-align: left;
     padding-left: 36px;
+  }
+}
+@media all and (max-width: 600px) {
+  .request__input {
+    max-width: unset;
+    width: 90%;
   }
 }
 
@@ -4411,3 +4416,13 @@ a > .production__phone {
 /* .request__wrapper{
     display: none;
 } */
+.material-icons {
+  display: none;
+}
+
+.get-a-quote-form #postal_code_autocomplete {
+  display: none;
+}
+.get-a-quote-form .webform-component-select {
+  display: none;
+}
